@@ -1,0 +1,38 @@
+title: AITU Туториал
+baseURL: https://aitutor.zxc.sx/
+languageCode: ru-RU
+defaultContentLanguage: "ru"
+theme: "PaperMod"
+
+
+params:
+  env: production
+  title: "AITU Туториал"
+  description: "Туториал для студентов AITU <3"
+  defaultTheme: dark
+  DateFormat: "2 January, 2006"  # golang moment
+
+  homeInfoParams:
+    Title: "AITU Туториал"
+    Content: "Туториал для студентов AITU <3"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/tshipenchko/aitutor"
+
+
+  editPost:
+    URL: "https://github.com/tshipenchko/aitutor/tree/master/content"
+    Text: "Предложить Изменения"
+
+
+menu:
+  main:
+    - name: Категории
+      url: /categories/
+      
+    - name: Теги
+      url: /tags/
+      
+    - name: FAQ
+      url: /faq
